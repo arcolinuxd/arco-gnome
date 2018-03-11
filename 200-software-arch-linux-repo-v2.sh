@@ -31,7 +31,7 @@ sudo pacman -S --noconfirm --needed variety
 echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed geany
+#sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
@@ -59,7 +59,7 @@ echo "Installing category Internet"
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
-sudo pacman -S --noconfirm --needed hexchat
+#sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
 sudo pacman -S --noconfirm --needed transmission-gtk
 #sudo pacman -S --noconfirm --needed
@@ -67,9 +67,11 @@ sudo pacman -S --noconfirm --needed transmission-gtk
 echo "Installing category Multimedia"
 
 #sudo pacman -S --noconfirm --needed clementine
-sudo pacman -S --noconfirm --needed deadbeef
-sudo pacman -S --noconfirm --needed openshot
-sudo pacman -S --noconfirm --needed shotwell
+#sudo pacman -S --noconfirm --needed deadbeef
+#sudo pacman -S --noconfirm --needed mpv
+#sudo pacman -S --noconfirm --needed openshot
+sudo pacman -S --noconfirm --needed pragha
+#sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
@@ -79,8 +81,8 @@ echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed evolution
-sudo pacman -S --noconfirm --needed geary
-sudo pacman -S --noconfirm --needed libreoffice-fresh
+#sudo pacman -S --noconfirm --needed geary
+#sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
@@ -89,12 +91,13 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
-sudo pacman -S --noconfirm --needed archey3
+#sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
+sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gksu
 sudo pacman -S --noconfirm --needed glances
@@ -135,6 +138,7 @@ sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
+sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 #sudo pacman -S --noconfirm --needed
 
