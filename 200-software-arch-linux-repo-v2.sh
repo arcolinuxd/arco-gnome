@@ -19,7 +19,7 @@ echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
-#sudo pacman -S --noconfirm --needed galculator
+sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
@@ -129,9 +129,6 @@ sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
-#sudo pacman -S --noconfirm --needed thunar
-#sudo pacman -S --noconfirm --needed thunar-archive-plugin
-#sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
@@ -147,8 +144,7 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract
-#sudo pacman -S --noconfirm --needed file-roller
+sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
 

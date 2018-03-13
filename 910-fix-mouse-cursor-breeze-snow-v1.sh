@@ -13,16 +13,12 @@ set -e
 #
 ##################################################################################################################
 
-echo "Creating common folders in correct language"
-xdg-user-dirs-update
-xdg-user-dirs-update --force
+echo "Everywhere Breeze-snow as cursor"
+echo "Change cursor if you want"
 
-echo "Creating private folders we use later"
+sudo cp -r Personal/settings/default/index.theme /usr/share/icons/default/
 
-[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
-[ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
 
 echo "################################################################"
-echo "###       personal folders created or existed already       ####"
+echo "####           TO SEE THE EFFECT YOU MUST LOG OFF          ######"
 echo "################################################################"
