@@ -54,15 +54,11 @@ echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
 echo
 
-
 echo "################################################################"
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
 cp -rT /etc/skel ~
-echo "Copying all files and folders from awesome to ~/.config"
-
-
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
@@ -76,8 +72,6 @@ echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"
 echo "################################################################"
 echo
-
-
 
 echo "################################################################"
 echo "removing to fix variety ~/.config/variety"
