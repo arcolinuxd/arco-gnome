@@ -26,8 +26,6 @@ sudo pacman -S --noconfirm --needed galculator
 
 echo "Installing category Development"
 
-#sudo pacman -S --noconfirm --needed gnome-boxes
-
 echo "Installing category Education"
 
 echo "Installing category Games"
