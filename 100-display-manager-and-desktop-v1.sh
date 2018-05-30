@@ -19,7 +19,7 @@ echo "and run the alias - mirror in the terminal"
 echo "#################################################"
 
 sudo pacman -Syyu
-sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
+sudo pacman -S lightdm --noconfirm --needed
 #sudo pacman -S gdm
 sudo pacman -S gnome gnome-extra --noconfirm --needed
 #sudo systemctl enable gdm.service -f
