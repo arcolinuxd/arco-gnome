@@ -33,8 +33,8 @@ sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S arcolinux-local-git --noconfirm --needed
-#sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
+#sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
