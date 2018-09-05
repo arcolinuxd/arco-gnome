@@ -36,6 +36,7 @@ sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S arcolinux-local-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 #sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
+sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
@@ -65,20 +66,34 @@ echo "################################################################"
 echo
 
 echo "################################################################"
+echo "####     Software from ArcoLinux 3party Repository installed       ####"
+echo "################################################################"
+echo
+
+sudo pacman -S --noconfirm --needed discord
+sudo pacman -S --noconfirm --needed dropbox
+sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed spotify
+
+echo "################################################################"
+echo "####     Software from ArcoLinux 3party Repository installed       ####"
+echo "################################################################"
+echo
+
+echo "################################################################"
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
 cp -rT /etc/skel ~
-
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
 echo "################################################################"
 echo
 rm ~/.config/autostart/calamares.desktop
-rm -rf ~/.config/volumeicon
 rm -rf ~/.config/dconf
 rm ~/.config/compton.conf
+rm -rf ~/.config/volumeicon
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"

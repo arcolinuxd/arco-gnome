@@ -51,13 +51,13 @@ sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
-#sudo pacman -S --noconfirm --needed ristretto
+sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-sudo pacman -S --noconfirm --needed filezilla
+#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
@@ -91,9 +91,10 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+sudo pacman -S --noconfirm --needed arc-gtk-theme
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
-sudo pacman -S --noconfirm --needed bleachbit
+#sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
@@ -127,6 +128,9 @@ sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
+#sudo pacman -S --noconfirm --needed thunar
+#sudo pacman -S --noconfirm --needed thunar-archive-plugin
+#sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler

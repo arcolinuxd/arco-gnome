@@ -18,11 +18,13 @@ echo "Stop the installation with CTRL + C"
 echo "and run the alias - mirror in the terminal"
 echo "#################################################"
 
-sudo pacman -Syyu
-sudo pacman -S lightdm --noconfirm --needed
-#sudo pacman -S gdm
+sudo pacman -Syyu --noconfirm
+#installing displaymanager or login manager
+sudo pacman -S --noconfirm --needed lightdm
+sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings
+#installing desktop environment
 sudo pacman -S gnome gnome-extra --noconfirm --needed
-#sudo systemctl enable gdm.service -f
+#enabling displaymanager or login manager
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
