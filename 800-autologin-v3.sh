@@ -38,7 +38,7 @@ It will be used to add this user to the group autologin : " choice
 sudo gpasswd -a $choice autologin
 
 sudo sed -i 's/'#autologin-user='/'autologin-user=$choice'/g' /etc/lightdm/lightdm.conf
-sudo sed -i 's/'#autologin-session='/'autologin-session=gnome'/g' /etc/lightdm/lightdm.conf
+gesudo sed -i 's/'#autologin-session='/'autologin-session=gnome'/g' /etc/lightdm/lightdm.conf
 
 echo "################################################################"
 echo "####        You can now autologin - reboot to check       ######"

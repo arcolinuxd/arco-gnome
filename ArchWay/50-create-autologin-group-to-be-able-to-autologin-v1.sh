@@ -15,5 +15,12 @@ set -e
 #
 ##################################################################################################################
 
+echo "Autologin system group is installed on ArcoLinux"
+echo "On Arch Linux we need to create it ourselves"
 
-gsettings set org.gnome.gnome-screenshot default-file-type png 
+sudo groupadd -r autologin
+
+echo "################################################################"
+echo "###                  Group has been created                 ####"
+echo "###        Now you can run script 800 to autologin          ####"
+echo "################################################################"

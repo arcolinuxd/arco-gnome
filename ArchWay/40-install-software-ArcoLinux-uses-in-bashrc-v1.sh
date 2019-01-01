@@ -15,5 +15,14 @@ set -e
 #
 ##################################################################################################################
 
+echo "Installing the software ArcoLinux uses in .bashrc"
 
-gsettings set org.gnome.gnome-screenshot default-file-type png 
+sudo pacman -S --noconfirm --needed expac
+sudo pacman -S --noconfirm --needed hwinfo
+sudo pacman -S --noconfirm --needed reflector
+sudo pacman -S --noconfirm --needed youtube-dl
+
+
+echo "################################################################"
+echo "###                  software installed                     ####"
+echo "################################################################"
