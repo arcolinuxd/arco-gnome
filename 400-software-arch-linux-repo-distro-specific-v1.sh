@@ -39,7 +39,7 @@ echo "Installing category Internet"
 echo "Installing category Multimedia"
 
 sudo pacman -S --noconfirm --needed gnome-mplayer
-sh AUR/install-mpd-ncmpcpp-v*.sh
+#sh AUR/install-mpd-ncmpcpp-v*.sh
 
 echo "Installing category Office"
 
