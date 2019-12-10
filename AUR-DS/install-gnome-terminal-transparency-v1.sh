@@ -14,8 +14,10 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+if pacman -Qi $package &> /dev/null; then
+	sudo pacman -R gnome-terminal --noconfirm
+fi
 
-sudo pacman -R gnome-terminal --noconfirm
 package="gnome-terminal-transparency"
 
 #----------------------------------------------------------------------------------
