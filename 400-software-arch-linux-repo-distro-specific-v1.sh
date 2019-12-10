@@ -47,7 +47,7 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
-sudo pacman -S dmenu --noconfirm --needed
+sudo pacman -S guake --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
 sudo pacman -S chrome-gnome-shell --noconfirm --needed
