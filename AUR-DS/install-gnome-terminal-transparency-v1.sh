@@ -17,9 +17,11 @@
 if pacman -Qi gnome-terminal &> /dev/null; then
 	sudo pacman -R gnome-terminal --noconfirm
 fi
+echo
 echo "#################################################################################"
 echo "If you see an error message the second time you run the script - do not mind"
 echo "#################################################################################"
+echo
 package="gnome-terminal-transparency"
 
 #----------------------------------------------------------------------------------
