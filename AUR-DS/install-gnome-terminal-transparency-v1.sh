@@ -17,7 +17,9 @@
 if pacman -Qi gnome-terminal &> /dev/null; then
 	sudo pacman -R gnome-terminal --noconfirm
 fi
-
+echo "###########################################################"
+echo "This error message is quite normal -do not mind"
+echo "###########################################################"
 package="gnome-terminal-transparency"
 
 #----------------------------------------------------------------------------------
