@@ -26,8 +26,6 @@ sh AUR-DS/install-gnome-terminal-transparency-v*.sh
 
 sh AUR-DS/install-nautilus-compare-v*.sh
 
-sh AUR-DS/install-nautilus-image-tools-v*.sh
-
 sh AUR-DS/install-nautilus-renamer-v*.sh
 
 sh AUR/install-yad-v*.sh
