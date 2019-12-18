@@ -25,6 +25,7 @@ echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed gnome-multi-writer
 sudo pacman -S --noconfirm --needed gnome-pie
 sudo pacman -S --noconfirm --needed galculator
+sudo pacman -S --noconfirm --needed guake
 
 echo "Installing category Development"
 
@@ -47,7 +48,6 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
-sudo pacman -S guake --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
 sudo pacman -S chrome-gnome-shell --noconfirm --needed
