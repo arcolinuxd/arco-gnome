@@ -58,7 +58,7 @@ xfce4-terminal
 arcolinux-xfce-git
 arcolinux-local-xfce4-git
 gnome
-gnome-screensaver
+gnome-tweaks
 guake
 )
 #gnome-extra can be added too
