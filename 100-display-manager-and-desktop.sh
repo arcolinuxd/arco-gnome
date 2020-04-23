@@ -57,12 +57,11 @@ thunar-volman
 xfce4-terminal
 arcolinux-xfce-git
 arcolinux-local-xfce4-git
-budgie-desktop
-budgie-extras
 gnome
 gnome-screensaver
 guake
 )
+#gnome-extra can be added too
 
 count=0
 
