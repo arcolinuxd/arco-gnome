@@ -55,9 +55,9 @@ func_category() {
 func_category Arcolinux-Desktop
 
 list=(
-arcolinux-config-budgie-git
-arcolinux-budgie-dconf-git
-arcolinux-budgie-git
+arcolinux-config-gnome-git
+arcolinux-gnome-dconf-git
+arcolinux-gnome-git
 )
 
 count=0
