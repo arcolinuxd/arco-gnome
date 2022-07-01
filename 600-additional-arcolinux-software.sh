@@ -56,7 +56,6 @@ func_category Arcolinux-Desktop
 
 list=(
 arcolinux-config-all-desktops-git
-arcolinux-gnome-dconf-git
 arcolinux-gnome-git
 thunar
 thunar-archive-plugin
